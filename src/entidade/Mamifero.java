@@ -22,7 +22,7 @@ public class Mamifero extends Animal {
   }
 
   @Override
-  public void emitirSom() {
-    System.out.println("GRRR GRRAU");
+  public String emitirSom() {
+    return"GRRR GRRAU";
   }
 }

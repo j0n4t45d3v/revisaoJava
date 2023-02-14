@@ -15,8 +15,6 @@ public abstract class Animal implements InterfaceAnimal {
   }
 
 
-
-
   public String getEspecie() {
     return especie;
   }

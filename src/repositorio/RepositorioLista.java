@@ -48,7 +48,7 @@ public class RepositorioLista implements InRepositorio{
     Node animal = this.inicio;
 
     while(animal != null){
-      System.out.println(animal.getValor().getEspecie());
+      System.out.println(animal.getValor().getEspecie()+", som: "+animal.getValor().emitirSom());
       animal = animal.getProximo();
     }
   }

@@ -2,8 +2,6 @@ package animal;
 
 public interface InterfaceAnimal {
 
-  void emitirSom();
-
-
+  String emitirSom();
 
 }

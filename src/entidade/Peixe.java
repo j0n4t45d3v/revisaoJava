@@ -22,7 +22,7 @@ public class Peixe extends Animal {
   }
 
   @Override
-  public void emitirSom() {
-    System.out.println("Glub Glub");
+  public String emitirSom() {
+    return "Glub Glub";
   }
 }

@@ -37,7 +37,7 @@ public class RepositorioVetor implements InRepositorio{
   public void listarAnimais() {
     for (Animal i : this.vetor) {
       if(i != null){
-        System.out.println(i.getEspecie());
+        System.out.println(i.getEspecie()+", som: "+ i.emitirSom());
       }
     }
   }

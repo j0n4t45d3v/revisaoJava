@@ -22,7 +22,7 @@ public class Ave extends Animal {
   }
 
   @Override
-  public void emitirSom() {
-    System.out.println("piu-piu");
+  public String emitirSom() {
+    return "piu-piu";
   }
 }
